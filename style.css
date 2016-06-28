@@ -48,7 +48,7 @@ input {
 	margin-top: 5px;
 	height: 38px;
 	width: 580px;
-	border: 1px solid #42a5f5;
+	border: 1px solid #e0e0e0;
 }
 .button {
 	margin-top: 30px;
@@ -110,6 +110,14 @@ li a {
 	opacity: 1;
 }
 
+/*------------INPUT EFFECTS-------------*/
+
+input:hover {
+	border: 1px solid #bdbdbd;
+}
+input:focus {
+	border: 1px solid #4386f9;
+}
 
 /*----------BUTTON EFFECTS----------------*/
 
