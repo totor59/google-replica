@@ -1,52 +1,68 @@
+/*-------------GENERAL------------*/
+html {
+	font-family: Arial;
+}
+
+
 /*------------HEADER--------------*/
 
 
 header {
 	text-align: right;
-	font-size: 12px;
+	font-size: 13px;
+	font-weight: 400;
 	margin-top: 1%;
 }
 header a {
 	text-decoration: none;
-	color: #424242;
-	padding-left: 10px;
-	padding-right: 10px;
+	color: #585858;
+	padding-left: 8px;
+	padding-right: 8px;
 }
 #icon {
 	height: 24px;
-	color: #424242;
 	position: relative;
 	top: 8px;
+	margin-right: 8px;
+	opacity: 0.5;
 }
 #connexion {
-	background-color: #1976d2;
+	background-color: #4386F9;
   	color: #FFF;
-	padding: 8px 12px 8px 12px;
+	padding: 8px 15px 8px 15px;
 	margin-right: 20px;
+	font-weight: bold;
 
 }
 
 
 /*-------------CONTAINER-------------*/
 
+
+
 .container {
+	margin-top: 45px;
 	text-align: center;
 }
 input {
-	margin-top: 30px;
-	height: 30px;
-	width: 600px;
+	margin-top: 5px;
+	height: 38px;
+	width: 580px;
+	border: 1px solid #42a5f5;
 }
 .button {
-	margin-top:30px;
-	margin-right: 20px;
+	margin-top: 30px;
+	margin-left:10px;
+	margin-right: 40px;
 }
 .button a {
 	text-decoration: none;
-	color: #424242;
+	color: #757575;
 	background-color: #eeeeee;
-	padding: 10px 16px 10px 16px;
-	font-size: 14px;
+	padding: 10px 20px 10px 20px;
+	font-size: 12px;
+	font-weight: bold;
+	margin-left: 5px;
 
 }
 
@@ -55,7 +71,58 @@ input {
 
 footer {
 	position: absolute;
-	bottom: 1%;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	display: inline;
+	height: 40px;
+	background-color: #eeeeee;
+	border: 1px solid #e0e0e0;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+ul {
+	list-style: none;
+	display: inline;
+	font-size: 12px;
+}
+li a {
+	padding-right: 30px;
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: 400;
+	color: #585858;
 }
 
+
+/*-------------HEADER EFFECTS---------------*/
+
+.toplink:hover {
+	text-decoration: underline;
+	color: #212121;
+}
+#icon:hover {
+	text-decoration: none;
+	opacity: 1;
+}
+
+
+/*----------BUTTON EFFECTS----------------*/
+
+
+.button a:hover {
+	border: 1px solid #bdbdbd;
+	font-weight: bold;
+	color: black;
+}
+
+/*------------FOOTER EFFECTS-------------*/
+
+footer a:hover {
+	text-decoration: underline;
+}
 
