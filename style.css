@@ -104,6 +104,7 @@ li a {
 .toplink:hover {
 	text-decoration: underline;
 	color: #212121;
+	cursor: pointer;
 }
 #icon:hover {
 	text-decoration: none;
@@ -132,5 +133,6 @@ input:focus {
 
 footer a:hover {
 	text-decoration: underline;
+	cursor: pointer;
 }
 
